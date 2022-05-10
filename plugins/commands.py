@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('😍 ᎪᏴϴႮͲ 😍', callback_data='about')
             ],[
             InlineKeyboardButton('🔗 ՏႮᏴՏᏟᎡᏆᏴᎬ 🔗', url='https://youtube.com/channel/UCl1EnIFvBwT7dPtgfOYnvPA'),
-            InlineKeyboardButton('🪞 ᎷᏆᎡᎡϴᎡ ᏴϴͲ 🪞', url='https://t.me/Luna_mirror_bot')
+            InlineKeyboardButton('×͜× ᎷᏆᎡᎡϴᎡ ᏴϴͲ ×͜×', url='https://t.me/Luna_mirror_bot')
         ]]         
         reply_markup = InlineKeyboardMarkup(buttons)        
         await message.reply_video(
@@ -92,7 +92,7 @@ async def start(client, message):
             InlineKeyboardButton('😍 ᎪᏴϴႮͲ 😍', callback_data='about')
             ],[
             InlineKeyboardButton('🔗 ՏႮᏴՏᏟᎡᏆᏴᎬ 🔗', url='https://youtube.com/channel/UCl1EnIFvBwT7dPtgfOYnvPA'),
-            InlineKeyboardButton('🪞 ᎷᏆᎡᎡϴᎡ ᏴϴͲ 🪞', url='https://t.me/Luna_mirror_bot')
+            InlineKeyboardButton('×͜× ᎷᏆᎡᎡϴᎡ ᏴϴͲ ×͜×', url='https://t.me/Luna_mirror_bot')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
