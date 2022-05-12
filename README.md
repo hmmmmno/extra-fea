@@ -3,21 +3,6 @@
   <img src="https://telegra.ph/file/be1900eb55a37c40a9212.jpg" alt="𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂Logo">
 </p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Features
 
 - [x] Auto Filter
