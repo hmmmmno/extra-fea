@@ -2362,7 +2362,7 @@ class Fonts:
             text = text.replace(i, j)
         return text
     
-    def cool(text):
+    def sparrow(text):
         style = {
             'a': 'Ꭺ',
             'b': 'Ᏼ',
