@@ -90,7 +90,7 @@ async def nxt(c, m):
             ],[
             InlineKeyboardButton('ՏᏢᎪᎡᎡϴᏔ', callback_data='style+sparrow')
             ],[
-            InlineKeyboardButton('⬅️ Back', callback_data='nxt+0')
+            InlineKeyboardButton('⬅️ ᏴᎪᏟᏦ', callback_data='nxt+0')
         ]]
         await m.answer()
         await m.message.edit_reply_markup(InlineKeyboardMarkup(buttons))
