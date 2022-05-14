@@ -52,4 +52,4 @@ ujson
 Heroku3
 Wikipedia
 pytz
-
+geopy
