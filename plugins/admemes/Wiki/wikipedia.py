@@ -4,7 +4,7 @@ from plugins.admemes.Wiki.pluginhelpers import edit_or_reply
 from plugins.admemes.Wiki.basic_helpers import get_text
 
 
-@Client.on_message(filters.command(["wiki", "Wikipedia"]))
+@Client.on_message(filters.command(["wiki", "wikipedia"]))
 async def wikipediasearch(Client, message):
     event = await edit_or_reply(message, "`Searching..`")
     query = get_text(message)
