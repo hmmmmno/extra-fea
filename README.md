@@ -1,4 +1,5 @@
 ## 𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂
+https://readme-typing-svg.herokuapp.com/?lines=welcome+To+Tiger-Shroff!;created+by+CRAZY+BOSS!;A+simple+autofilter+Bot!;Auto+filter+with+double+button!;start+message+with+pic!;and+all+futures!)
 <p align="center">
   <img src="https://telegra.ph/file/be1900eb55a37c40a9212.jpg" alt="𝙻𝚄𝙽𝙰-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂Logo">
 </p>
