@@ -299,7 +299,7 @@ Everyone can use this command , if spaming happens bot will automatically ban yo
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>"""
     STATUS_TXT = """
-█  █  █ █▀ ▄ ▄▀█ 
+█   █  █ █▀ ▄ ▄▀█ 
 █▄ █▄█ █  █ █▀█
 ★ 🗃️𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 👥𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
