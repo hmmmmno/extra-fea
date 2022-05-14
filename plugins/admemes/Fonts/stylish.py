@@ -88,6 +88,8 @@ async def nxt(c, m):
             InlineKeyboardButton('S̶t̶r̶i̶k̶e̶', callback_data='style+strike'),
             InlineKeyboardButton('F༙r༙o༙z༙e༙n༙', callback_data='style+frozen')
             ],[
+            InlineKeyboardButton('ՏᏢᎪᎡᎡϴᏔ', callback_data='style+sparrow')
+            ],[
             InlineKeyboardButton('⬅️ Back', callback_data='nxt+0')
         ]]
         await m.answer()
@@ -179,6 +181,8 @@ async def style(c, m):
         cls = Fonts.strike
     if style == 'frozen':
         cls = Fonts.frozen
+    if style == 'sparrow':
+        cls = Fonts.sparrow
     new_text = cls(m.message.reply_to_message.text)
     try:
         await m.message.edit_text(new_text, reply_markup=m.message.reply_markup)
