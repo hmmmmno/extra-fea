@@ -920,7 +920,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.IP_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
-        parse_mode='html'
         )
     elif query.data == "font":
         buttons = [[
