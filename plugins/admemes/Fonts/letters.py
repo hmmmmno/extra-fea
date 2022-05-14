@@ -2362,7 +2362,7 @@ class Fonts:
             text = text.replace(i, j)
         return text
     
-    def frozen(text):
+    def cool(text):
         style = {
             'a': 'Ꭺ',
             'b': 'Ᏼ',
