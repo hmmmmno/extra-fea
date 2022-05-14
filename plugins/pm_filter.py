@@ -834,8 +834,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙸𝙿-𝙰𝙳𝙳𝚁𝙴𝚂𝚂', callback_data='ipaddress'),
             InlineKeyboardButton('𝙻𝚈𝚁𝙸𝙲𝚂', callback_data='lyric')
             ],[
-            InlineKeyboardButton('𝚂𝙷𝙰𝚉𝙰𝙼', callback_data='shazam')
-            InlineKeyboardButton('𝙿𝙰𝚂𝚂-𝙶𝙴𝙽', callback_data='wiki')
+            InlineKeyboardButton('𝚂𝙷𝙰𝚉𝙰𝙼', callback_data='shazam'),
+            InlineKeyboardButton('𝙿𝙰𝚂𝚂-𝙶𝙴𝙽', callback_data='wiki'),
             InlineKeyboardButton('𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴', url='https://youtube.com/channel/UCl1EnIFvBwT7dPtgfOYnvPA')
             ],[
             InlineKeyboardButton('ᏴᎪᏟᏦ', callback_data='start')
