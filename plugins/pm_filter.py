@@ -836,6 +836,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('𝚂𝙷𝙰𝚉𝙰𝙼', callback_data='shazam'),
             InlineKeyboardButton('𝙿𝙰𝚂𝚂-𝙶𝙴𝙽', callback_data='passgen'),
+            InlineKeyboardButton('𝚂𝚃𝚈𝙻𝙸𝚂𝙷-𝚃𝙴𝚇𝚃', callback_data='font')
+            ],[
             InlineKeyboardButton('𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴', url='https://youtube.com/channel/UCl1EnIFvBwT7dPtgfOYnvPA')
             ],[
             InlineKeyboardButton('ᏴᎪᏟᏦ', callback_data='start')
@@ -916,6 +918,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.IP_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        parse_mode='html'
+        )
+    elif query.data == "font":
+        buttons = [[
+            InlineKeyboardButton('ᏴᎪᏟᏦ', callback_data='commands')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FONT_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
         )
