@@ -53,3 +53,4 @@ Heroku3
 Wikipedia
 pytz
 geopy
+shazamio
