@@ -184,6 +184,14 @@ async def help(client, message):
             InlineKeyboardButton('𝙶-𝚃𝚁𝙰𝙽𝚂', callback_data='gtrans'),
             InlineKeyboardButton('𝙵𝙸𝙻𝙴-𝚂𝚃𝙾𝚁𝙴', callback_data='newdata'),
             InlineKeyboardButton('𝚂𝚃𝙰𝚃𝚄𝚂', callback_data='stats')
+            ],[
+            InlineKeyboardButton('𝚆𝙸𝙺𝙸𝙿𝙴𝙳𝙸𝙰', callback_data='wiki'),
+            InlineKeyboardButton('𝙸𝙿-𝙰𝙳𝙳𝚁𝙴𝚂𝚂', callback_data='ipaddress'),
+            InlineKeyboardButton('𝙻𝚈𝚁𝙸𝙲𝚂', callback_data='lyric')
+            ],[
+            InlineKeyboardButton('𝚂𝙷𝙰𝚉𝙰𝙼', callback_data='shazam'),
+            InlineKeyboardButton('𝙿𝙰𝚂𝚂-𝙶𝙴𝙽', callback_data='passgen'),
+            InlineKeyboardButton('𝚂𝚃𝚈𝙻𝙸𝚂𝙷-𝚃𝙴𝚇𝚃', callback_data='font')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
