@@ -62,7 +62,7 @@ async def start(client, message):
         try:
             invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
         except ChatAdminRequired:
-            logger.error("ᎷᎪᏦᎬ ՏႮᎡᎬ ᏴϴͲ ᏆՏ ᎪᎠᎷᏆΝ ᏆΝ ҒϴᎡᏟᎬՏႮᏴ ᏟᎻᎪΝΝᎬᏞ")
+            logger.error("𝙼𝙰𝙺𝙴 𝚂𝚄𝚁𝙴 𝙱𝙾𝚃 𝙸𝚂 𝙰𝙳𝙼𝙸𝙽 𝙸𝙽 𝙵𝙾𝚁𝙲𝙴𝚂𝚄𝙱 𝙲𝙷𝙰𝙽𝙽𝙴𝙻")
             return
         btn = [
             [
