@@ -27,11 +27,14 @@
             "description": "Get this value from https://my.telegram.org",
             "required": true
         },
-        "API_ID": {
-
-            "description": "Get this value from https://my.telegram.org",
-
-            "required": true
+        "IMDB_TEMPLATE": {
+            "description": "custom your imdb temple",
+            "required": false
+        },
+        "CUSTOM_FILE_CAPTION": {
+            "description": "to custom your file description",
+            "required": false
+        },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
             "required": true
